@@ -1,0 +1,152 @@
+
+.quote{
+	margin-left: 10%;
+}
+h1{
+	font-family: 'Concert One', cursive;
+}
+h3{
+	float: right;
+	margin-right: 4%;
+	letter-spacing: 1.2px;
+}
+#date{
+	float: right;
+	color: grey;
+}
+
+#buttons{
+	 margin-left:25%;
+}
+
+
+.active{
+	/*margin-left: 25%;*/
+	 background-color: #A0EE90;
+	 color: white;
+	 
+}
+
+ .inactive{
+ 	 background-color: #C85B6D;
+ 	 color: white;
+ 	 
+ }
+
+ .all{
+ 	background-color:#a9c4f2;
+ 	color: rgb(50, 53, 58);
+ 	
+ }
+.btn {
+	font-family: 'Fredoka One', cursive;
+	/*font-weight: bold;*/
+  /*background-color: #f4511e;*/
+  /*background-color: #A0EE90;*/
+  margin-top: 5%;
+  margin-bottom: 2%;
+  margin-right: 5%;
+
+  border: none;
+  
+  padding: 10px 32px;
+  text-align: center;
+  font-size: 19px;
+  /*margin: 4px 2px;*/
+  opacity: 1;
+  transition: 0.3s;
+  border-radius: 12px;
+}
+
+.btn:hover {opacity: 0.6}
+
+body{
+	background: url("https://rlv.zcache.com/retro_pink_gingham_checkered_pattern_background_poster-r151d04293e4e4a3ea4c77c5dcefa7df2_wve_8byvr_261.jpg?rvtype=content");
+	background-repeat: repeat ;
+	background-size: 100%;
+	
+	}
+
+.listItems{
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+
+.todoli{
+	list-style: none;
+	background: transparent;
+	height: 40px;
+	line-height: 40px;
+	/*color: #666666;*/
+	color: black;
+	font-size: 20px;
+}
+li:nth-child(2n){
+	background: #f7f7f7;
+}
+
+li:hover span{
+	width: 40px;
+	opacity: 1.0;
+}
+
+input[type=text] {
+  width: 200px;
+  float: left;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+.delete{
+	float: right;
+}
+
+#container{
+ 	font-family: 'Concert One', cursive;
+	width:46%;
+	margin-right: 20% ;
+	margin-left: 20%;
+	margin-top: 0%;
+	padding: 5%;
+	border:30px solid rgba(244, 66, 92, 0.5);
+	border-radius:  35px;
+	/*background: url("https://png.pngtree.com/element_origin_min_pic/16/08/29/1957c41e6d9ac53.jpg");*/
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.completed{
+	color: gray;
+	text-decoration: line-through;
+}
+
+.fa-plus{
+	float: right;
+}
+
+.fa-times{
+	color : red;
+}
+.fa-circle-thin{
+	color: blue;	
+}
+
+.fa-check{
+	color: green;
+}
+
+.block1{
+	font-size: 40px;
+}
